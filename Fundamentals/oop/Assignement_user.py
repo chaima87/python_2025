@@ -46,3 +46,5 @@ user1.spend_points(50)
 # Displaying info after spending points
 print("After spending points:")
 user1.display_info()
+
+#have second user 
