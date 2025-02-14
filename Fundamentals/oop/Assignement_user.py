@@ -30,21 +30,30 @@ class User:
         print(f"Gold Card Points: {self.gold_card_points}")
 
 user1= User("Chaima","Louhichi","chaimalouhichi@codingdojo.com",37)
+user2 = User("Alice", "Smith", "alicesmith@example.com", 25)
+user3 = User("Bob", "Johnson", "bobjohnson@example.com", 40)
+
 # Calling display_info method
 user1.display_info()
+user2.display_info()
+user3.display_info()
 
 # Enrolling the user
-user1.enroll()
-
+user2.enroll()
+user3.enroll()
 #Displaying info before spending points
 print("Before spending points:")
 user1.display_info()
+user2.display_info()
+user3.display_info()
 
 #Spending points
 user1.spend_points(50)
+user2.spend_points(50)
+user3.spend_points(80)
 
 # Displaying info after spending points
 print("After spending points:")
 user1.display_info()
-
-#have second user 
+user2.display_info()
+user3.display_info()
