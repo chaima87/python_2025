@@ -1,0 +1,13 @@
+SELECT * FROM users.users;
+insert into users.users (first_name, last_name, email)
+values ('Chaima', 'louhichi', 'chaimalouhichi@gmail.com');
+select * from users.users;
+select email from users.users where idtable1 = 1; 
+select * from users.users where idtable1 =6;
+update users.users set last_name = 'pancakes' where idtable1 = 3;
+delete from users.users where idtable1 = 2;
+select first_name from users.users;
+delete from users.users where first_name = 'Chaima';
+delete from users.users where idtable1= 14;
+SELECT * FROM users.users ORDER BY first_name DESC;
+SELECT * FROM users.users ORDER BY first_name ASC;

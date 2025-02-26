@@ -1,0 +1,14 @@
+SELECT * FROM ninjas;
+insert into ninjas (first_name, last_name, age, dojo_iddojos) values ('Hattori', 'Hanzō', 23, 4);
+insert into ninjas (first_name, last_name, age, dojo_iddojos) values ('fuma', 'kataro', 21, 4);
+insert into ninjas (first_name, last_name, age, dojo_iddojos) values ('Sarutobi', 'Sasuki', 20, 4);
+insert into ninjas (first_name, last_name, age, dojo_iddojos) values ('Momochi', 'Sandayū', 25, 5);  
+insert into ninjas (first_name, last_name, age, dojo_iddojos) values ('Ishikawa', 'Goemon', 26, 5);  
+insert into ninjas (first_name, last_name, age, dojo_iddojos) values ('Kawakami', 'Gensai', 27, 5); 
+insert into ninjas (first_name, last_name, age, dojo_iddojos) values ('Koga', 'Danjo', 27, 6);
+insert into ninjas (first_name, last_name, age, dojo_iddojos) values ('Togakure', 'Daisuke', 28, 6);  
+insert into ninjas (first_name, last_name, age, dojo_iddojos) values ('Fujibayashi', 'Nagato', 30, 6); 
+select * from ninjas where dojo_iddojos = 4;
+select * from ninjas where dojo_iddojos = 6;
+select * from ninjas where idninja = 37;
+select * from ninjas join dojos on dojo_iddojos = 6;
